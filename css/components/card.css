@@ -1,0 +1,29 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 30px;
+  /* flex-wrap: wrap; */
+}
+
+.card img {
+  width: 150px;
+}
+
+.card {
+  width: 20%;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(230,230,230);
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 17px;
+}
+
+.card p {
+  font-size: 15px;
+  opacity: 0.5;
+}
